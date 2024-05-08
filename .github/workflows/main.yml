@@ -1,9 +1,11 @@
 name: "Terraform"
+
 on:
   push:
     branches: ["main"]
     paths: ["src/**"]
   workflow_dispatch:
+  
 jobs:
   terraform:
     name: "Terraform Apply"
